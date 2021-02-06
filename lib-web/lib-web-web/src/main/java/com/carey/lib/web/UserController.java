@@ -1,14 +1,13 @@
 package com.carey.lib.web;
 
+import com.carey.lib.api.UserService;
+import com.carey.lib.api.model.UserModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.carey.lib.api.UserService;
-import com.carey.lib.api.model.UserModel;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>

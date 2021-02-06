@@ -16,14 +16,13 @@
  */
 package com.carey.lib.mybatis.controller;
 
-import java.util.List;
-
+import com.carey.lib.mybatis.entity.MybatisDemoUser;
+import com.carey.lib.mybatis.mapper.MybatisDemoUserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.carey.lib.mybatis.entity.MybatisDemoUser;
-import com.carey.lib.mybatis.mapper.MybatisDemoUserMapper;
+import java.util.List;
 
 @RestController
 @RequestMapping("/usermybatis")

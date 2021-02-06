@@ -16,10 +16,10 @@
  */
 package com.carey.lib.mybatis.mapper;
 
-import java.util.List;
-
 import com.carey.lib.mybatis.entity.MybatisDemoUser;
 import org.apache.ibatis.annotations.Mapper;
+
+import java.util.List;
 
 /**
  * 指定这是一个操作数据库的mapper

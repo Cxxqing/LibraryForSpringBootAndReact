@@ -1,13 +1,12 @@
 package com.carey.lib.service;
 
+import com.carey.lib.api.UserService;
+import com.carey.lib.api.model.UserModel;
+import com.carey.lib.dao.dataobject.UserDO;
+import com.carey.lib.dao.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cglib.beans.BeanCopier;
 import org.springframework.stereotype.Component;
-
-import com.carey.lib.dao.dataobject.UserDO;
-import com.carey.lib.dao.mapper.UserMapper;
-import com.carey.lib.api.UserService;
-import com.carey.lib.api.model.UserModel;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
