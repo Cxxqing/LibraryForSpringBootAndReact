@@ -1,4 +1,4 @@
-package com.carey.lib.api.service;
+package com.carey.lib.api.service.book;
 
 import com.carey.lib.api.constants.ResultDTO;
 import com.carey.lib.api.model.book.BookClassDTO;

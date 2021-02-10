@@ -1,9 +1,9 @@
-package com.carey.lib.service;
+package com.carey.lib.service.book;
 
 import com.carey.lib.api.constants.ResultDTO;
 import com.carey.lib.api.eums.HttpCode;
 import com.carey.lib.api.model.book.BookClassDTO;
-import com.carey.lib.api.service.BookClassService;
+import com.carey.lib.api.service.book.BookClassService;
 import com.carey.lib.dao.mapper.book.BookClassMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
