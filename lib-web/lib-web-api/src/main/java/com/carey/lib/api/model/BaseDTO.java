@@ -16,7 +16,7 @@ public class BaseDTO {
     /**
      * 数据ID
      */
-    private int id;
+    private Integer id;
 
 
     /**

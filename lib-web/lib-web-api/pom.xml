@@ -12,11 +12,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <dependencies>
-        <dependency>
-            <groupId>com.carey</groupId>
-            <artifactId>lib-web-dao</artifactId>
-            <version>${project.version}</version>
-        </dependency>
 
         <dependency>
             <groupId>org.projectlombok</groupId>

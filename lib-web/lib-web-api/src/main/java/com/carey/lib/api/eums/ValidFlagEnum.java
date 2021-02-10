@@ -1,6 +1,7 @@
 package com.carey.lib.api.eums;
 
 /**
+ * 数据有效性
  * @author Carey
  */
 
