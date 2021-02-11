@@ -35,4 +35,33 @@
         values (#{userId}, #{userName}, #{bookId}, #{bookName}, #{count}, #{startDate}, #{endDate},
                 #{price}, #{tradeFee}, #{createDate}, #{updateDate}, #{validFlag})
     </insert>
+
+    <update id="update">
+        update book_borrow
+        <set>
+            <if test="count != null and count>=0">
+                count = #{count},
+            </if>
+            <if test="tmp1 != null">
+                tmp1 = #{tmp1},
+            </if>
+            <if test="tmp2 != null">
+                tmp2 = #{tmp2},
+            </if>
+            <if test="updateDate != null">
+                update_Date = #{updateDate},
+            </if>
+            <if test="validFlag != null">
+                valid_flag = #{validFlag}
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <select id="findById" parameterType="Integer" resultMap="BookBorrowDTO">
+        select <include refid="base_column"></include>
+        from book_borrow where id = #{id}
+    </select>
+
+
 </mapper>
